@@ -1,0 +1,118 @@
+.head{
+	background-color: red;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid #666;
+	width: 100px;
+	float: left;
+}
+.news{
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid #666;
+	float: left;
+	width: 500px;
+}
+.navigation{
+ clear: left;
+}
+.navigation ul li{
+	list-style: none;
+	background-color: red;
+	padding: 5px;
+	margin: 2px;
+	width: 100px;
+	display:inline;
+
+}
+
+#dad p:first-letter{
+	font-size: 50px;
+	font-style: bold;
+}
+#dad p:first-child{
+	color: red;
+
+}
+#dad p:last-child{
+	color: yellow;
+} 
+#dad p:before{
+	content: "my name is ";
+}
+#dad p:after{
+	content: " ! ";
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	color: yellow; 
+}
+
+table{
+	border: 0px;
+}
+tr th{
+	background-color: skyblue;
+}
+tr td{
+	background-color: gray;
+	color: #fff;
+}
+.box{
+	padding: 20px;
+	margin: 5px;
+	background-color: red;
+	color: #fff;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px 10px ;
+    box-shadow: 10px 10px 5px 0px #000;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+    margin: 10px 10px;
+    padding: 20px;
+    border: 1px solid #666;
+    background-color:red;
+    color: #fff;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+.main-section{
+    margin: 10px 10px;
+    padding: 20px;
+    border: 1px solid #666;
+    background-color: #006699;
+    color: #fff;
+}
+.footer{
+    margin: 10px 10px;
+    padding: 20px;
+    border: 1px solid #666;
+    background-color: #006699;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
